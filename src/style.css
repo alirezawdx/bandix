@@ -11,4 +11,11 @@
 		font-weight: 400;
 		src: url(./assets/fonts/Dana/DanaFaNum-Regular.woff2) format('woff2');
 	}
+    
+	@font-face {
+		font-family: 'Dana';
+		font-style: normal;
+		font-weight: 900;
+		src: url(./assets/fonts/Dana/DanaFaNum-ExtraBlack.woff2) format('woff2');
+	}
 }
