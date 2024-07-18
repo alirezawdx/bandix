@@ -2,3 +2,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Include needed font families */
+@layer base {
+	@font-face {
+		font-family: 'Dana';
+		font-style: normal;
+		font-weight: 400;
+		src: url(./assets/fonts/Dana/DanaFaNum-Regular.woff2) format('woff2');
+	}
+}
